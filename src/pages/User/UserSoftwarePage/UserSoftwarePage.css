@@ -1,0 +1,20 @@
+.user-getting-started-page .r-block{
+    margin-bottom: 30px;
+}
+.user-getting-started-page .r-block p{
+    font-size: 18px;
+    line-height: 1.5em;
+}
+.user-getting-started-page. .r-block p.r-sub-title{
+    font-weight: bold;
+}
+.user-getting-started-page ul li{
+    font-size: 18px;
+    line-height: 1.75em;
+}
+.user-getting-started-page .sub-block{
+    display: block;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 3px solid #999;
+}

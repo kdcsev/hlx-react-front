@@ -1,0 +1,73 @@
+export const USER_LEVEL_ALL = "all";
+export const USER_LEVEL_AFFILIATE = "affiliate";
+export const USER_LEVEL_CUSTOMER = "customer";
+export const ADMIN_LEVEL_ALL = "all";
+export const ADMIN_LEVEL_SUPERADMIN = "superadmin";
+export const ADMIN_LEVEL_ASSISTANT = "assistant";
+
+export const ROOT = "/";
+export const ROUTE_ROOT = "/";
+export const ROUTE_FREE_BOOK = "/free-book";
+export const ROUTE_REWARDS_PLAN = "/rewards-plan";
+export const ROUTE_ABOUT_US = "/about-us";
+export const ROUTE_SUPPORT = "/support";
+export const ROUTE_LOGIN = "/login";
+export const ROUTE_REGISTER = "/register";
+export const ROUTE_FORGOT_PASSWORD = "/forgot-password";
+export const ROUTE_CONFIRM_PASSWORD = "/confirm-password/:code";
+export const ROUTE_USER_AGREEMENT = "/user-agreement";
+export const ROUTE_TERMS_CONDITIONS = "/terms-conditions";
+export const ROUTE_PRIVACY_POLICY = "/privacy-policy";
+export const ROUTE_RISK_WARNING = "/risk-warning";
+export const ROUTE_AFFILIATE_AGREEMENT = "/affiliate-agreement";
+export const ROUTE_INCOME_DISCLAIME = "/income-disclaime";
+export const ROUTE_TRIAL_POLICY = "/trial-policy";
+export const ROUTE_COMPLIANCE = "/compliance";
+export const ROUTE_WELCOME = "/welcome";
+
+
+
+export const ROUTE_USER_FEED = "/user/feed";
+export const ROUTE_USER_SOFTWARE = "/user/software";
+export const ROUTE_USER_DASHBOARD = "/user/dashboard";
+export const ROUTE_USER_VPS = "/user/vps/console";
+export const ROUTE_USER_TEAM = "/user/team/index";
+export const ROUTE_USER_TEAM_DETAIL = "/user/team/detail/:userid";
+export const ROUTE_USER_LICENSE = "/user/license/index";
+export const ROUTE_USER_ACADEMY = "/user/academy/intro";
+export const ROUTE_USER_ACADEMY_BASIC = "/user/academy/basic";
+export const ROUTE_USER_ACADEMY_ADVANCED = "/user/academy/advanced";
+export const ROUTE_USER_MARKETING = "/user/marketing";
+export const ROUTE_USER_CHART = "/user/chart";
+export const ROUTE_USER_WALLET = "/user/wallet";
+export const ROUTE_USER_AFFILIATE = "/user/affiliate/intro";
+export const ROUTE_USER_PAYMENT = "/user/payment/index";
+export const ROUTE_USER_TICKET = "/user/ticket/index";
+export const ROUTE_USER_TICKET_ADD = "/user/ticket/add";
+export const ROUTE_USER_TICKET_DETAIL = "/user/ticket/detail/:ticketid";
+export const ROUTE_USER_SUPPORT = "/user/support";
+export const ROUTE_USER_VERIFICATION = "/user/verification/index";
+export const ROUTE_USER_VERIFICATION_CONFIRM = "/user/verification/confirm/:code";
+export const ROUTE_USER_PROFILE = "/user/profile";
+export const ROUTE_USER_PAY_LICENSE = "/user/pay/license";
+export const ROUTE_USER_PAY_AFFILIATE = "/user/pay/affliate";
+export const ROUTE_USER_LOGOUT = "/user/dashboard/logout";
+
+
+export const ROUTE_ADMIN_DASHBOARD = "/admin/dashboard";
+export const ROUTE_ADMIN_USERS = "/admin/user/index";
+export const ROUTE_ADMIN_PROFILE = "/admin/profile/index";
+export const ROUTE_ADMIN_LICESES = "/admin/license/index";
+export const ROUTE_ADMIN_PAYMENTS = "/admin/payment/index";
+export const ROUTE_ADMIN_WITHDRAWS = "/admin/withdraw/index";
+export const ROUTE_ADMIN_STATS = "/admin/company/stats";
+export const ROUTE_ADMIN_TEAM = "/admin/team/index";
+export const ROUTE_ADMIN_TEAM_DETAIL = "/admin/team/detail/:userid";
+export const ROUTE_ADMIN_TICKET = "/admin/ticket/index";
+export const ROUTE_ADMIN_TICKET_DETAIL = "/admin/ticket/detail/:ticketid";
+export const ROUTE_ADMIN_ANNOUNCEMENT = "/admin/announcement/index";
+export const ROUTE_ADMIN_FEED = "/admin/feed/index";
+export const ROUTE_ADMIN_FEED_DETAIL = "/admin/feed/detail/:feedid";
+export const ROUTE_ADMIN_RANK = "/admin/rank/index";
+export const ROUTE_ADMIN_RANK_DETAIL = "/admin/rank/detail/:rankno";
+export const ROUTE_ADMIN_COUPON = "/admin/coupon/index";

@@ -1,0 +1,91 @@
+@media (max-width: 991px){
+    body .home-page h2 {
+        font-size: 20px;
+   }
+    body .home-page .hs-line-14-1 {
+        font-size: 24px;
+   }
+    body .home-page .hs-line-8-1 {
+        font-size: 12px;
+   }
+    body .home-page .main-content .page-section:first-child {
+        padding-top: 100px;
+        padding-bottom: 40px;
+   }
+    body .home-page .title-v1 {
+        font-size: 22px;
+   }
+    body .home-page .img-box {
+        text-align: center;
+   }
+    body .home-page .img-box img {
+        max-width: 180px;
+   }
+    body .home-page .banner-image {
+        margin-top: 0;
+   }
+    body .home-page .banner-image-box-1 img {
+        bottom: 0;
+   }
+    body .home-page .people-box {
+        margin-bottom: 40px;
+   }
+    body .home-page .people-avatar {
+        width: 70%;
+   }
+    body .home-page .vimeo-iframe {
+        width: 100%;
+        height: auto;
+   }
+    body .home-page .rank-img, body .home-page .rank-table-img {
+        width: 100%;
+   }
+    body .home-page .rank-img, body .home-page .rank-img-1 {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+   }
+    body .home-page .rank-name {
+        padding-top: 30px;
+        font-size: 30px;
+   }
+    body .home-page .login-form {
+        width: 100%;
+        margin: auto;
+        padding-top: 20px;
+   }
+    body .home-page .register-btn-wrapper {
+        text-align: center;
+        border-right: none;
+   }
+    body .home-page .reset-password-btn-wrapper {
+        text-align: center;
+   }
+    body .home-page .user-type-block, body .home-page .billing-info-block, body .home-page .credit-card-block {
+        margin-top: 40px;
+   }
+    body .home-page .reg-form .logo-wrapper img {
+        width: 65%;
+        display: block;
+        margin: auto;
+        margin-bottom: 0;
+   }
+    body .home-page .sms-verification-box #dialog #form input {
+        width: 17%;
+        margin: 5px 5px;
+   }
+    body .home-page .t-show-desktop {
+        display: none !important;
+   }
+    body .home-page .m-text-center {
+        text-align: center !important;
+   }
+    body .home-page .m-text-left {
+        text-align: left !important;
+   }
+    body .home-page .m-text-right {
+        text-align: right !important;
+   }
+    
+}

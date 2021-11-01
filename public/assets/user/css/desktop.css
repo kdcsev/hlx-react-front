@@ -1,0 +1,345 @@
+@media (min-width: 992px){
+    .t-show-mobile{
+        display: none !important;
+    }
+    .user-page .sidebar .logo a img{
+        width: 200px;
+        height: auto;
+        margin: 24px 0;
+    }
+    .user-page .sidebar .logo{
+        padding: 0;
+    }
+    .user-page .sidebar .logo a{
+        padding: 0 !important;
+    }
+    .user-page .sidebar .sidebar-wrapper, .off-canvas-sidebar .sidebar-wrapper{
+        position: relative;
+        height: calc(100vh - 100px);
+        overflow: auto;
+        width: 260px;
+        z-index: 4;
+        padding-bottom: 30px;
+    }
+
+    .user-page .sidebar .nav, .off-canvas-sidebar .nav{
+        /*margin-top: 50px;*/
+    }
+    /*
+    .sidebar-content{
+        display: table;
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    .vertical-middle-content{
+        display: table-cell;
+        vertical-align: middle;
+    }*/
+    .user-page .btn-copy-text {
+        position: absolute;
+        right: 5px;
+        top: 5px;
+        padding: 2px 6px;
+        cursor: pointer;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+   }
+    .user-page input#referral_url {
+        padding-right: 120px;
+   }
+    .user-page .mlm-tree-box {
+        display: block;
+        position: relative;
+        overflow-x: auto;
+   }
+    .user-page .main-tree-box {
+        display: block;
+        position: relative;
+        float: left;
+        width: 33.333333%;
+        text-align: center;
+        margin: 0;
+        box-sizing: border-box;
+   }
+    .user-page .main-tree-box:before {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 50%;
+        top: 0;
+        height: 20px;
+        width: 1px;
+        background: #ccc;
+   }
+    .user-page .main-tree-box.main-tree-box-0 {
+        display: block;
+        float: none;
+        width: 100%;
+        margin: auto;
+   }
+    .user-page .main-tree-box.main-tree-box-0:before {
+        display: none;
+   }
+    .user-page .tree-user-info-box {
+        display: block;
+        position: relative;
+        float: left;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 20px 0;
+        box-sizing: border-box;
+   }
+    .user-page .tree-user-info-box:before {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        height: 26px;
+        width: 1px;
+        background: #ccc;
+   }
+    .user-page .tree-user-info-box.last-tree-user:before {
+        display: none;
+   }
+    .user-page .tree-user-info-box:after {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 16.6666%;
+        right: 16.6666%;
+        bottom: 0;
+        height: 1px;
+        background: #ccc;
+   }
+    .user-page .tree-user-info-box.last-tree-user:after {
+        display: none;
+   }
+    .user-page .tree-child-container {
+        display: block;
+        position: relative;
+        clear: both;
+   }
+    .user-page .tree-child-container:after {
+        content: '';
+        display: block;
+        clear: both;
+   }
+    .user-page .tree-user-name {
+        text-align: center;
+        padding: 10px;
+        box-sizing: border-box;
+   }
+    .user-page .user-info-wrapper {
+        display: inline-block;
+        cursor: pointer;
+        position: relative;
+   }
+    .user-page .user-avatar-wrapper .user-avatar-box {
+        display: inline-block;
+        padding: 10px;
+        box-sizing: border-box;
+        border: 2px solid #389466;
+        border-radius: 500px;
+   }
+    .user-page .empty-user-wrapper .user-avatar-wrapper .user-avatar-box {
+        border: 2px solid #ff5e5e;
+   }
+    .user-page .user-avatar-wrapper .user-avatar-box img {
+        width: 40px;
+        height: 40px;
+   }
+    .user-page .user-name-wrapper {
+        margin-top: -10px;
+   }
+    .user-page .user-name-wrapper .user-name-box {
+        display: inline-block;
+        padding: 2px 6px;
+        box-sizing: border-box;
+        border: 2px solid #389466;
+        width: 80px;
+        font-size: 12px;
+        border-radius: 2px;
+        background: #389466;
+        color: #fff;
+   }
+    .user-page .empty-user-wrapper .user-name-wrapper .user-name-box {
+        border: 2px solid #ff5e5e;
+        background: #ff5e5e;
+        color: #fff;
+   }
+    .user-page .user-info-wrapper .btn-show-more-wrapper {
+        display: block;
+        position: absolute;
+        right: -10px;
+        bottom: 0;
+        width: 20px;
+        height: 20px;
+        background: #ff5e5e;
+        border-radius: 100px;
+        font-size: 16px;
+        outline: none;
+        box-sizing: border-box;
+        padding: 0;
+        border: none;
+   }
+    .user-page .referral-link-label {
+        position: absolute;
+        left: 0;
+        top: 0;
+   }
+    .user-page .user-profile-dlg {
+        padding: 0 20px;
+        box-sizing: border-box;
+   }
+    .user-page .dlg-user-avatar-box {
+        display: inline-block;
+        text-align: center;
+   }
+    .user-page .dlg-user-avatar {
+        width: 100px;
+        height: auto;
+   }
+    .user-page .dlg-info-label {
+        display: block;
+        text-align: right;
+        word-break: break-all;
+        margin: 0;
+        margin-top: 2px;
+   }
+    .user-page .dlg-user-info-txt {
+        text-align: left;
+        word-break: break-all;
+   }
+    .user-page .dlg-user-table-box .table > thead > tr > th, .user-page .dlg-user-table-box .table > tbody > tr > td {
+        font-size: 16px;
+        text-align: center;
+        padding: 18px 8px;
+   }
+    .user-page .dlg-user-table-box .table > tbody > tr > td {
+        cursor: pointer;
+   }
+    .user-page .dlg-user-table-box .table > tbody > tr > td img {
+        width: 40px;
+        height: auto;
+   }
+    .user-page .material-datatables-noscroll {
+        overflow-x: hidden !important;
+   }
+    .user-page .parse-box {
+        padding: 20px;
+   }
+    .user-page .parse-box .item-list-box {
+        font-size: 18px;
+        padding-top: 10px;
+        padding-left: 10px;
+   }
+    .user-page .parse-box .item-list-box .parse-item {
+        padding: 0.375em 1em;
+   }
+    .user-page .parse-box .item-list-box .parse-item.active {
+        background: #3c3c3c;
+   }
+    .user-page .card img.parse-img-responsive {
+        width: 50px;
+        height: auto;
+        display: inline-block;
+   }
+    .user-page .card .parse-title span {
+        font-size: 24px;
+        text-decoration: underline;
+        vertical-align: middle;
+   }
+    .user-page .logo-wrapper-vps {
+        float: left;
+   }
+    .user-page .logo-wrapper-vps img {
+        width: 360px;
+        height: auto;
+   }
+    .user-page .vps-title {
+        float: left;
+        font-size: 58px;
+        line-height: 2em;
+        margin-left: 0.55em;
+        color: #000;
+   }
+    .user-page .vps-description-wrapper {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 250px;
+   }
+    .user-page .vps-description {
+        color: #fff;
+        font-size: 34px;
+        line-height: 1.4em;
+        width: 840px;
+        word-break: break-word;
+        display: inline-block;
+   }
+    .user-page .vps-button-wrapper {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 110px;
+   }
+    .user-page .vps-btn {
+        color: #fff !important;
+        border: 2px solid #fff;
+        border-radius: 25px;
+        padding: 10px 30px;
+        background: #006f92;
+        font-size: 26px;
+   }
+    .user-page .affiliate-intro-box {
+        display: block;
+   }
+    .user-page .affiliate-intro-box:after {
+        display: block;
+        content: '';
+        box-sizing: border-box;
+        clear: both;
+   }
+    .user-page .affiliate-intro-left {
+        float: left;
+        width: 450px;
+   }
+    .user-page .affiliate-img-box img {
+        width: 160px;
+        height: auto;
+        margin-top: 120px;
+        margin-bottom: 30px;
+   }
+    
+   .user-page .affiliate-intro-right{
+    float: left;
+    width: calc(100% - 500px);
+    padding-top: 60px;
+    }
+    .user-page .affiliate-desc{
+        margin-bottom: 30px;
+        font-size: 1rem;
+        line-height: 1.5em;
+    }
+    
+    /*****************************new template***************************************/
+    .user-page .calendar-chart-box{
+        height: calc(100vh - 240px);
+    }
+     .user-page .loading-overlayer{
+        left: 0 !important;
+    }
+    .user-page.sidebar-icon-only .loading-overlayer{
+        left: 0 !important;
+    }
+    .user-page .ticket-message-item .ticket-message-time{
+        text-align: right;
+        position: absolute;
+        right: 10px;
+        top: 15px;
+    }
+
+}

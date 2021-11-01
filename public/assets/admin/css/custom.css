@@ -1,0 +1,62 @@
+.user-page.admin-page .sidebar .sidebar-content-wrapper {
+    background: linear-gradient(to bottom right, #18879d, #52b1c6);
+}
+.user-page.admin-page .feed-row{
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 0.25s ease-out 0s;
+    cursor: pointer;
+    font-size: 0.875rem;
+    color: white !important;
+    text-decoration: none !important;
+    border: 1px solid #777;
+    margin-bottom: 10px;
+    border-radius: 0.25rem;
+    background: #383838;
+    width: 100%;
+}
+.user-page.admin-page .feed-item{
+    position: relative;
+    display: block;
+    padding-right: 40px;
+}
+.user-page.admin-page .feed-item .feed-action{
+    position: absolute;
+    right: 0.9rem;
+    top: 1.2rem;
+}
+.user-page.admin-page .feed-item .feed-action .btn{
+    margin: 0;
+    margin-left: 3px;
+    padding: 5px;
+}
+.user-page.admin-page .feed-box{
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    padding: 5px;
+    padding: 1.2rem 0.9375rem;
+}
+.user-page.admin-page .feed-box .feed-subject{
+    margin-bottom: 10px;
+}
+.user-page.admin-page .feed-box .feed-message{
+    margin-bottom: 15px;
+}
+.user-page.admin-page .feed-box .feed-date{
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    opacity: 0.75;
+}
+.user-page.admin-page .feed-box img{
+    width: auto;
+    max-width: 100%;
+}
+.user-page.admin-page .feed-detail-container{
+    border: 1px solid rgba(101,103,119,0.21);
+}
+.user-page.admin-page .feed-detail-container.has-error{
+    border: 1px solid #dc3545;
+}

@@ -1,0 +1,63 @@
+html {
+    font-size: 16px;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+}
+.user-page .d-none, .user-page .hidden {
+    display: none !important;
+}
+
+.feed-list-container .ajax-placeholder{
+    display: none;
+}
+.feed-list-container.is_empty .ajax-placeholder{
+    display: block;
+}
+.user-page .sidebar .nav .nav-item .nav-link i {
+    font-size: 1.1rem;
+    line-height: 1;
+    margin-right: 0.6rem;
+    color: #ffffff;
+}
+.user-page .exp-date-block{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.user-page .credit-card-img-block {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.user-page #expiration-month {
+    display: inline-block;
+     margin-right: 10px;
+     width:auto;
+     padding: 0.6rem 1rem;
+}
+ .user-page #expiration-year {
+    display: inline-block;
+    width:auto;
+    padding: 0.6rem 1rem;
+}
+.user-page .credit-card-img-block #credit_cards .t-show-desktop {
+    display: none !important
+}
+.user-page .credit-card-img-list{
+    text-align: left !important;
+}
+.user-page .dropdown .dropdown-menu .dropdown-item{
+    color: #fff !important;
+}
+.user-page .card-encrypted-number{
+    letter-spacing: 2px;
+}
+.user-page .card img.avatar-list-heading {
+    width: 320px;
+    max-width: 100%;
+    height: auto;
+}
+.user-page .user-marketing-page .btn-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}

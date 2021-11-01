@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8" />
+      <link rel="shortcut icon" href="http://192.168.0.72/000_work/higher_level_mlm/Source/assets/global/img/favicon.png?v=1">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+      <title>Higher Level FX</title>
+      <meta name="description" content="Higher Level FX™ is a cutting edge company whose mission is to help people learn how to trade currencies on the global foreign exchange market (FOREX). We provide top of the line software, tried and true methods and techniques and a supportive environment in which we can thrive together. We want you to succeed and we will help you every step of the way!">
+      <meta name="Keywords" content="Higher Level FX">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta property="og:title" content="Higher Level FX" />
+      <meta property="og:type" content='website' />
+      <meta property="og:url" content="http://192.168.0.72/000_work/higher_level_mlm/Source/?v=1" />
+      <meta property="og:description" content="Higher Level FX"/>
+      <meta property="og:image" content="http://192.168.0.72/000_work/higher_level_mlm/Source/assets/global/img/hlx_og_thumb.jpg?v=1"/>
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="627" />
+      <meta property="og:site_name" content="A New Approach to Learning." />
+      <!-- base:css -->
+      <link rel="stylesheet" href="http://192.168.0.72/000_work/higher_level_mlm/Source/themes/customer/vendors/ti-icons/css/themify-icons.css">
+      <link rel="stylesheet" href="http://192.168.0.72/000_work/higher_level_mlm/Source/themes/customer/vendors/css/vendor.bundle.base.css">
+      <!-- endinject -->
+      <!-- plugin css for this page -->
+      <link rel="stylesheet" href="http://192.168.0.72/000_work/higher_level_mlm/Source/themes/customer/vendors/select2/select2.min.css">
+      <link rel="stylesheet" href="http://192.168.0.72/000_work/higher_level_mlm/Source/themes/customer/vendors/select2-bootstrap-theme/select2-bootstrap.min.css">
+      <link rel="stylesheet" href="http://192.168.0.72/000_work/higher_level_mlm/Source/themes/customer/vendors/mdi/css/materialdesignicons.min.css">
+      <!-- End plugin css for this page -->
+      <!-- inject:css -->
+      <link rel="stylesheet" href="http://192.168.0.72/000_work/higher_level_mlm/Source/themes/customer/css/layout/style.css">
+      <!-- endinject -->
+      <link rel="stylesheet" href="http://192.168.0.72/000_work/higher_level_mlm/Source/themes/customer/vendors/datatables.net-bs4/dataTables.bootstrap4.css">
+      <link href="http://192.168.0.72/000_work/higher_level_mlm/Source/assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+      <link rel="stylesheet" href="http://192.168.0.72/000_work/higher_level_mlm/Source/assets/global/plugins/jquery-dialog/jquery-confirm.css">
+      <link href="http://192.168.0.72/000_work/higher_level_mlm/Source/assets/global/css/base.css?v=1627551046" rel="stylesheet" />
+      <link href="http://192.168.0.72/000_work/higher_level_mlm/Source/assets/global/css/global.css?v=1627551046" rel="stylesheet" />
+      <link href="http://192.168.0.72/000_work/higher_level_mlm/Source/assets/user/css/custom.css?v=1627551046" rel="stylesheet" />
+      <link href="http://192.168.0.72/000_work/higher_level_mlm/Source/assets/user/css/desktop.css?v=1627551046" rel="stylesheet" />
+      <link href="http://192.168.0.72/000_work/higher_level_mlm/Source/assets/user/css/mobile.css?v=1627551046" rel="stylesheet" />
+      <script src="http://192.168.0.72/000_work/higher_level_mlm/Source/themes/customer/vendors/js/vendor.bundle.base.js"></script>
+      <!--<script src="assets/global/plugins/jquery1.12.4/jquery-1.12.4.min.js" type="text/javascript"></script>-->
+      <link href="http://192.168.0.72/000_work/higher_level_mlm/Source/assets/global/plugins/jquery-ui-1.12.1/jquery-ui.css" rel="stylesheet" />
+      <script src="http://192.168.0.72/000_work/higher_level_mlm/Source/assets/global/plugins/jquery-ui-1.12.1/jquery-ui.js" type="text/javascript"></script>
+      <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" crossorigin="anonymous"></script>-->
+      <script src="http://192.168.0.72/000_work/higher_level_mlm/Source/assets/global/js/common.js?v=1627551046"></script>
+      <script src="http://192.168.0.72/000_work/higher_level_mlm/Source/assets/global/plugins/jquery-dialog/jquery-confirm.js"></script>
+      <script>
+         var APP_NAME = "Higher Level FX";
+         var current_theme_color = 'black';
+         var base_url = "http://192.168.0.72/000_work/higher_level_mlm/Source/";
+         
+         var is_mobile = false;
+             
+      </script>
+   </head>
+   <body>
+      <style>
+         .loading-overlayer{
+         position: fixed;
+         left: 0;
+         top: 0;
+         bottom: 0;
+         right: 0;
+         background: rgba(68, 68, 68, 0.2);
+         display: block;
+         z-index: 10000000000;
+         }
+         .loading-overlayer .loading-wrapper{
+         margin-top: calc(50vh - 100px);
+         font-size: 60px;
+         color: #f44336;
+         }
+      </style>
+      <div class="loading-overlayer" style="display: none;">
+         <div class="loading-wrapper text-center">
+            <div class="loader-demo-box">
+               <div class="dot-opacity-loader">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container-scroller">
+         <nav class="sidebar" id="sidebar">
+            <div class="sidebar-content-wrapper sidebar-offcanvas custom-scroller">
+               <ul class="nav">
+                  <li class="nav-item active">
+                     <a class="nav-link" href="http://192.168.0.72/000_work/higher_level_mlm/Source/user/feed/index">
+                     <i class="mdi mdi-rss-box menu-icon"></i>
+                     <span class="menu-title">What's new</span>
+                     </a>
+                  </li>
+                  <li class="nav-item ">
+                     <a class="nav-link" href="http://192.168.0.72/000_work/higher_level_mlm/Source/user/software/index">
+                     <i class="mdi mdi-hand-pointing-right menu-icon"></i>
+                     <span class="menu-title">Getting Started</span>
+                     </a>
+                  </li>
+                  <li class="nav-item ">
+                     <a class="nav-link" href="http://192.168.0.72/000_work/higher_level_mlm/Source/user/dashboard/index">
+                     <i class="mdi mdi-home menu-icon"></i>
+                     <span class="menu-title">Dashboard</span>
+                     </a>
+                  </li>
+                  <li class="nav-item ">
+                     <a class="nav-link" href="http://192.168.0.72/000_work/higher_level_mlm/Source/user/vps/console">
+                     <i class="mdi mdi-server-plus menu-icon"></i>
+                     <span class="menu-title">Virtual Private Server</span>
+                     </a>
+                  </li>
+                  <li class="nav-item ">
+                     <a class="nav-link" href="http://192.168.0.72/000_work/higher_level_mlm/Source/user/license/index">
+                     <i class="mdi mdi-format-list-bulleted-type menu-icon"></i>
+                     <span class="menu-title">Membership</span>
+                     </a>
+                  </li>
+                  <li class="nav-item ">
+                     <a class="nav-link" href="http://192.168.0.72/000_work/higher_level_mlm/Source/user/academy/intro">
+                     <i class="mdi mdi-near-me menu-icon"></i>
+                     <span class="menu-title">Higher Level Academy</span>
+                     </a>
+                  </li>
+                  <li class="nav-item ">
+                     <a class="nav-link" href="http://192.168.0.72/000_work/higher_level_mlm/Source/user/chart/index">
+                     <i class="mdi mdi-chart-line menu-icon"></i>
+                     <span class="menu-title">Live Charts</span>
+                     </a>
+                  </li>
+                  <li class="nav-item ">
+                     <a class="nav-link" href="http://192.168.0.72/000_work/higher_level_mlm/Source/user/wallet/index">
+                     <i class="mdi mdi-wallet menu-icon"></i>
+                     <span class="menu-title">Wallet</span>
+                     </a>
+                  </li>
+                  <li class="nav-item ">
+                     <a class="nav-link" href="http://192.168.0.72/000_work/higher_level_mlm/Source/user/affiliate/intro">
+                     <i class="mdi mdi-account-convert menu-icon"></i>
+                     <span class="menu-title">Become an Affiliate</span>
+                     </a>
+                  </li>
+                  <li class="nav-item ">
+                     <a class="nav-link" href="http://192.168.0.72/000_work/higher_level_mlm/Source/user/payment/index">
+                     <i class="mdi mdi-currency-usd menu-icon"></i>
+                     <span class="menu-title">Payments</span>
+                     </a>
+                  </li>
+                  <li class="nav-item ">
+                     <a class="nav-link" href="http://192.168.0.72/000_work/higher_level_mlm/Source/user/ticket/index">
+                     <i class="mdi mdi-forum menu-icon"></i>
+                     <span class="menu-title">Support Tickets</span>
+                     </a>
+                  </li>
+                  <li class="nav-item ">
+                     <a class="nav-link" href="http://192.168.0.72/000_work/higher_level_mlm/Source/user/support/index">
+                     <i class="mdi mdi-help-circle menu-icon"></i>
+                     <span class="menu-title">FAQ</span>
+                     </a>
+                  </li>
+                  <li class="nav-item ">
+                     <a class="nav-link" href="http://192.168.0.72/000_work/higher_level_mlm/Source/user/verification/index">
+                     <i class="mdi mdi-lock menu-icon"></i>
+                     <span class="menu-title">Two-Step Verification</span>
+                     </a>
+                  </li>
+                  <li class="nav-item ">
+                     <a class="nav-link" href="http://192.168.0.72/000_work/higher_level_mlm/Source/user/profile/index">
+                     <i class="mdi mdi-account menu-icon"></i>
+                     <span class="menu-title">Profile / Cancellation</span>
+                     </a>
+                  </li>
+                  <li class="nav-item ">
+                     <a class="nav-link" href="http://192.168.0.72/000_work/higher_level_mlm/Source/user/dashboard/logout">
+                     <i class="mdi mdi-logout-variant menu-icon"></i>
+                     <span class="menu-title">Log out</span>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </nav>
+         <!-- partial -->
+         <div class="container-fluid page-body-wrapper">
+            <!-- partial:partials/_settings-panel.html -->
+            <!-- partial -->
+            <!-- partial:partials/_navbar.html -->
+            <nav class="navbar p-0 d-flex flex-row">
+               <div class="navbar-menu-wrapper d-flex align-items-center">
+                  <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+                  <span class="ti-align-left"></span>
+                  </button>
+                  <div class="navbar-brand-wrapper d-flex align-items-center justify-content-center">
+                     <a class="navbar-brand brand-logo" href="javascript:void(0);">News Feed</a>
+                     <a class="navbar-brand brand-logo-mini" href="javascript:void(0);">HLX</a>
+                  </div>
+                  <ul class="navbar-nav navbar-nav-right ml-auto">
+                     <li class="hidden nav-item nav-search d-none d-sm-flex">
+                        <div class="nav-link d-flex justify-content-center align-items-center">
+                           <input type="text" class="form-control hidden" id="search-field" placeholder="Search...">
+                           <i class="ti-search mx-0" id="search-icon"></i>
+                        </div>
+                     </li>
+                     <li class="nav-item dropdown">
+                        <a class="nav-link count-indicator dropdown-toggle d-flex justify-content-center align-items-center" id="messageDropdown" href="#" data-toggle="dropdown">
+                        <i class="ti-comment mx-0"></i>
+                        <span class="notification-count badge badge-pill badge-primary"></span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="messageDropdown">
+                           <p class="mb-0 font-weight-normal float-left dropdown-header">Tickets</p>
+                           <div class="notification-list"></div>
+                        </div>
+                     </li>
+                     <li class="nav-item nav-profile dropdown">
+                        <a class="nav-link" href="#" data-toggle="dropdown" id="profileDropdown">
+                        <span class="hi-text">Hi, quanseng</span>&nbsp;
+                        &nbsp;
+                        <img src="http://192.168.0.72/000_work/higher_level_mlm/Source/assets/global/img/default-avatar-1.png" alt="profile" data-datetime="2021-07-29 11:30:46"/>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
+                           <a class="dropdown-item" href="http://192.168.0.72/000_work/higher_level_mlm/Source/user/profile/index">
+                           <i class="ti-user text-primary"></i>
+                           Profile
+                           </a>
+                           <a class="dropdown-item btn-logout" href="javascript:void(0);" data-href="http://192.168.0.72/000_work/higher_level_mlm/Source/user/dashboard/logout" title="logout">
+                           <i class="ti-new-window text-primary"></i>
+                           Logout
+                           </a>
+                        </div>
+                     </li>
+                  </ul>
+                  <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+                  <span class="ti-menu"></span>
+                  </button>
+               </div>
+            </nav>
+            <script>
+               function load_notification_list(is_loop){
+                   var url = base_url + "user/dashboard/get_notification_list";
+                   $.ajax({
+                       url: url,
+                       success:function(res){
+                           var obj = JSON.parse(res);
+                           if(obj.status == '1'){
+                               var notification_list = obj.data.unread_ticket_list;
+                               var msg_html = "";
+                               for(var i=0; i<notification_list.length; i++){
+                                   var info = notification_list[i];
+                                   var t_url = base_url + 'user/ticket/detail/'+info['id'];
+                                   var html = '<a class="notification-item dropdown-item preview-item" href="'+t_url+'">' +
+                                       '<div class="preview-item-content flex-grow"> ' +
+                                       '<h5 class="notification-content text-emphasis preview-subject font-weight-normal">'+info['title']+'</h5>' +
+                                       '<p class="notification-content text-emphasis font-weight-light small-text text-white-80 mb-0"> ' + info['msg_info']['message'] +
+                                       '</p> ' +
+                                       '</div> ' +
+                                       '</a>';
+               
+                                   msg_html+=html;
+                               }
+                               $(".notification-list").html(msg_html);
+                               var notification_count = notification_list.length;
+                               if(is_empty(notification_count) || notification_count == 0){
+                                   notification_count = "";
+                               }else{
+                                   if(notification_count > 10){
+                                       notification_count = "10+";
+                                   }
+                               }
+                               $(".notification-count").html(notification_count);
+               
+                               ////////////////////////////////////////////////////////////////////////////////////////////////////
+                               var feed_badge_count = parseInt(obj.data.feed_badge_count);
+                               if(feed_badge_count===0) {
+                                   feed_badge_count = '';
+                               }else if(feed_badge_count > 10){
+                                   feed_badge_count = "10+";
+                               }
+                               var feed_badge_html = '<span class="badge badge-pill badge-primary">'+feed_badge_count+'</span>';
+                               var badge_menu_icon = $("#sidebar .nav-item .mdi-rss-box");
+                               var badge_menu = badge_menu_icon.closest("a.nav-link");
+                               //console.log('badge_menu_icon', badge_menu_icon);
+                               if(badge_menu.find(".badge").length > 0) {
+                                   badge_menu.find(".badge").html(feed_badge_count);
+                               }else{
+                                   //console.log('feed_badge_html',feed_badge_html);
+                                   badge_menu.find(".menu-title").after(feed_badge_html);
+                               }
+                               ////////////////////////////////////////////////////////////////////////////////////////////////////
+                           }else{
+                               showToast(obj.message, 'error');
+                           }
+                           if(is_loop){
+                               setTimeout(function(){
+                                   load_notification_list(is_loop);
+                               }, 5000);
+                           }
+                       }
+                   })
+               }
+               
+               load_notification_list(true);
+               
+               $(document).ready(function(){
+                   $(".btn-logout").click(function(){
+                       var url = $(this).attr('data-href');
+                       show_confirmDlg1("Log Out", "Are you sure you want to log out?",function(){
+                           window.location.href = url;
+                       });
+                   });
+               });
+            </script>        <!-- partial -->
+            <div class="main-panel">
+               <div class="content-wrapper">
+                  <style>
+                     .feed-list-container .ajax-placeholder{
+                     display: none;
+                     }
+                     .feed-list-container.is_empty .ajax-placeholder{
+                     display: block;
+                     }
+                  </style>
+                  <div class="row">
+                     <div class="col-md-12">
+                        <div class="card">
+                           <div class="card-body">
+                              <h4 class="card-title hidden">News Feed</h4>
+                              <div class="card-content">
+                                 <div class="feed-list-container">
+                                    <div class="feed-list" id="feed-list">
+                                    </div>
+                                    <div class="text-center ajax-placeholder">
+                                       <span class="">No news feed found</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="visibility-hidden">
+                     <div class="feed-item-template">
+                        <div class="feed-item" data-id="0">
+                           <div class="alert alert-warning" role="alert">
+                              <div class="feed-box note mb-0 text-left">
+                                 <p class="feed-subject"></p>
+                                 <p class="feed-message word-break"></p>
+                                 <p class="feed-date unix-timestamp"></p>
+                                 <div class="feed-new-badge">
+                                    <div class="badge badge-outline-success badge-pill">New</div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <script>
+                     show_loading(true);
+                     
+                     var feed_first_loading = true;
+                     console.log(timeConverter(1617903587));
+                     function showDateTime(){
+                         $(".unix-timestamp").each(function(){
+                             var timestamp = parseInt($(this).attr("data-value"));
+                             var datetime_str = timeConverter(timestamp);
+                             $(this).html(datetime_str);
+                         });
+                     }
+                     function ajaxLoadFeedList(last_id){
+                         var container = $(".feed-list-container");
+                         if(last_id === undefined || last_id === null) {
+                             last_id = $("#feed-list .feed-item:last-child").attr('data-id');
+                         }
+                         if(is_empty(last_id)){
+                             last_id = 0;
+                         }else{
+                             last_id = parseInt(last_id);
+                         }
+                         if(container.hasClass("full_loaded")){
+                             return false;
+                         }
+                         if(container.hasClass("is_loading")){
+                             return false;
+                         }
+                         container.addClass("is_loading");
+                         var url = base_url + "user/feed/ajax_get_list?last_id="+last_id;
+                         $.ajax({
+                             url: url,
+                             success:function(res){
+                                 container.removeClass("is_loading");
+                                 var obj = JSON.parse(res);
+                                 if(obj.status == '1'){
+                                     var feed_list = obj.data;
+                                     if(feed_list.length === 0) {
+                                         container.addClass("full_loaded");
+                                     }else{
+                                         showFeedList(feed_list, 'append');
+                                     }
+                                 }else{
+                                     showToast(obj.message, 'error');
+                                 }
+                     
+                                 if(feed_first_loading){
+                                     show_loading(false);
+                                     feed_first_loading = false;
+                                     ajaxLoadNewFeedList();
+                                 }
+                                 showDateTime();
+                             }
+                         });
+                     }
+                     function showFeedList(feed_list, position){
+                         var feed_item = null;
+                         for(var i=0; i<feed_list.length; i++){
+                             feed_item = feed_list[i];
+                             showFeedItem(feed_item, position);
+                         }
+                     }
+                     function showFeedItem(feed_item, position){
+                         if(is_empty(position)){
+                             position = 'append';
+                         }
+                         $(".feed-item-template .feed-item").attr('data-id', feed_item['id']);
+                         $(".feed-item-template .feed-item .feed-subject").html(feed_item['subject']);
+                         $(".feed-item-template .feed-item .feed-message").html(feed_item['message']);
+                         $(".feed-item-template .feed-item .feed-date").attr('data-value', feed_item['add_timestamp']).html(timeConverter(parseInt(feed_item['add_timestamp'])));
+                         var html = $(".feed-item-template").html();
+                         if(position=='append'){
+                             $("#feed-list").append(html);
+                         }else{
+                             $("#feed-list").prepend(html);
+                             $("#feed-list .feed-item:first-child").addClass("is-new");
+                         }
+                     }
+                     function ajaxLoadNewFeedList(){
+                         var container = $(".feed-list-container");
+                         var last_id = $("#feed-list .feed-item:first-child").attr('data-id');
+                         if(is_empty(last_id)){
+                             last_id = 0;
+                         }else{
+                             last_id = parseInt(last_id);
+                         }
+                         var url = base_url + "user/feed/ajax_get_list?last_id="+last_id+'&type=new';
+                         $.ajax({
+                             url: url,
+                             success:function(res){
+                                 var obj = JSON.parse(res);
+                                 if(obj.status == '1'){
+                                     var feed_list = obj.data;
+                                     showFeedList(feed_list, 'prepend');
+                                 }else{
+                                     showToast(obj.message, 'error');
+                                 }
+                                 setTimeout(function(){
+                                     ajaxLoadNewFeedList();
+                                 }, 3000);
+                     
+                                 showDateTime();
+                             }
+                         });
+                     }
+                     function readFeedAll(){
+                         //console.log('mouse move');
+                         setTimeout(function(){
+                             $(".feed-item").removeClass("is-new");
+                         }, 500);
+                     }
+                     
+                     $(document).ready(function(){
+                         //show_loading(true);
+                         ajaxLoadFeedList(0);
+                     
+                         $(window).scroll(function() {
+                             var scroll_gap = 100;
+                             if($(window).scrollTop() + $(window).height() >= $(document).height() - scroll_gap) {
+                                 console.log('on scroll bottom');
+                                 ajaxLoadFeedList();
+                             }
+                             readFeedAll();
+                         });
+                     
+                         $("body").on("mousemove", function(){
+                             readFeedAll();
+                         })
+                     });
+                  </script>
+               </div>
+               <!-- content-wrapper ends -->
+               <!-- partial:partials/_footer.html -->
+               <footer class="footer">
+                  <div class="d-sm-flex justify-content-center justify-content-sm-between">
+                     <span class="text-center text-sm-left d-block d-sm-inline-block">Copyright © 2021<a href="http://192.168.0.72/000_work/higher_level_mlm/Source/" target="_blank" class="ml-1">Higher Level FX</a>. All rights reserved.</span>
+                     <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Designed by: HLX Team<i class="ti-heart text-danger ml-1"></i></span>
+                  </div>
+               </footer>
+               <!-- partial -->
+            </div>
+            <!-- main-panel ends -->
+         </div>
+         <!-- page-body-wrapper ends -->
+      </div>
+      <!-- container-scroller -->
+      <!--ajax upload code block-->
+      <iframe id="upload_frame" class="visibility-hidden" name="upload_frame" height="0" width="0" frameborder="0" scrolling="yes"></iframe>
+      <script>
+         $('#upload_frame').on('load',function(){
+             var res = $(this).contents().find('body').html();
+             console.log("RES:::", res);
+             res = res.replace('</div>', '');
+             res = res.replace('</p>', '');
+             res = res.replace('</span>', '');
+             res = res.replace('</i>', '');
+             res = res.replace('</br>', '');
+             res = decodeHTMLEntities(res);
+             console.log("RES111:::", res);
+             var obj = JSON.parse(res);
+             console.log(obj);
+             var callback = obj.data.callback;
+             eval(callback +"('"+res+"');");
+         });
+         
+      </script>
+      <!---------ajax upload---------->
+      <script>
+         $(document).ready(function(){
+                     //showToast('aaaaaaaaaa','success');
+             //show_loading(true);
+             /*show_confirmDlg("Are you sure?", function(){
+                 alert('yes');
+             })*/
+         });
+      </script>
+      <!-- base:js -->
+      <!-- endinject -->
+      <!-- Plugin js for this page-->
+      <script src="http://192.168.0.72/000_work/higher_level_mlm/Source/themes/customer/vendors/flot/jquery.flot.js"></script>
+      <script src="http://192.168.0.72/000_work/higher_level_mlm/Source/themes/customer/vendors/flot/jquery.flot.resize.js"></script>
+      <script src="http://192.168.0.72/000_work/higher_level_mlm/Source/themes/customer/vendors/chart.js/Chart.min.js"></script>
+      <!-- End plugin js for this page-->
+      <!-- inject:js -->
+      <script src="http://192.168.0.72/000_work/higher_level_mlm/Source/themes/customer/js/off-canvas.js"></script>
+      <script src="http://192.168.0.72/000_work/higher_level_mlm/Source/themes/customer/js/hoverable-collapse.js"></script>
+      <script src="http://192.168.0.72/000_work/higher_level_mlm/Source/themes/customer/js/template.js?v=1"></script>
+      <script src="http://192.168.0.72/000_work/higher_level_mlm/Source/themes/customer/js/settings.js"></script>
+      <script src="http://192.168.0.72/000_work/higher_level_mlm/Source/themes/customer/js/todolist.js"></script>
+      <script src="http://192.168.0.72/000_work/higher_level_mlm/Source/themes/customer/vendors/select2/select2.min.js"></script>
+      <!-- endinject -->
+      <!-- plugin js for this page -->
+      <!-- End plugin js for this page -->
+      <!-- Custom js for this page-->
+      <script src="http://192.168.0.72/000_work/higher_level_mlm/Source/themes/customer/js/dashboard.js"></script>
+      <!-- End custom js for this page-->
+      <script src="http://192.168.0.72/000_work/higher_level_mlm/Source/themes/customer/vendors/datatables.net/jquery.dataTables.js"></script>
+      <script src="http://192.168.0.72/000_work/higher_level_mlm/Source/themes/customer/vendors/datatables.net-bs4/dataTables.bootstrap4.js"></script>
+      <script src="http://192.168.0.72/000_work/higher_level_mlm/Source/assets/global/js/toastr.min.js?v=1.0"></script>
+      <script src="http://192.168.0.72/000_work/higher_level_mlm/Source/assets/global/js/photoswipe.js?v=1.0"></script>
+      <script src="http://192.168.0.72/000_work/higher_level_mlm/Source/assets/global/js/function.js?v=1627551046"></script>
+   </body>
+</html>

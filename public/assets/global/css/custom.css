@@ -1,0 +1,11 @@
+.modal .modal-title{
+    font-size: 18px;
+}
+body .react-tel-input .form-control{
+    width: 100%;
+    font-size: 1rem;
+    height: auto;
+}
+.a-btn{
+    cursor: pointer;
+}
